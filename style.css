@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat";
+}
+.header {
+  background-color: #1e266d;
+  height: 70px;
+}
+.container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.container a {
+  text-decoration-line: none;
+  color: white;
+  margin: 10px;
+  font-size: 18px;
+}
+.container ul {
+  list-style-type: none;
+}
+.section-1 {
+  background-color: #1e266d;
+  color: white;
+  padding: 221px 0;
+}
+.section-1 button {
+  background-color: #23d3d3;
+  color: #0e0e1a;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+}
+.section-1 > div {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.section-1 > div > div:first-child {
+  flex: 0.42;
+}
+.contact-info {
+  flex: 0.38;
+  background-color: white;
+  border-radius: 10px;
+}
+.contact-info > div {
+  margin: 35px;
+}
+.contact-info form {
+  width: 100%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+.contact-info form .form-el {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
